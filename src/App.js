@@ -1,9 +1,12 @@
 
+import "./index.scss"
+import Routing from "./Routing.js"
+
 function App() {
   return (
-    <div className="App">
-    Oi
-    </div>
+    <main className="container">
+        <Routing />
+    </main>
   );
 }
 
