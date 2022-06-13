@@ -30,7 +30,7 @@ export default function Home() {
                     </div>
 
 
-                    <img className={style.imageAdventure} src={Image} />
+                    <img className={style.imageAdventure} src={Image} alt="Illustration of adventure, for starting the quiz" />
 
                 </div>
 

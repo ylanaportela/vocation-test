@@ -41,7 +41,7 @@ export default function Login() {
 
                 <div className={style.imageLogin}>
 
-                    <img src={ImageLogin} />
+                    <img src={ImageLogin} src="For page of login, of welcome" />
                     
                 </div>
                 
@@ -67,7 +67,6 @@ export default function Login() {
 
                             <FormLabel>Nome Completo:</FormLabel>
                             <Form.Control
-                                className={style.input}
                                 className={style.input}
                                 type="text"
                                 value={nameUser}

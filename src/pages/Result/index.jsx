@@ -68,7 +68,7 @@ export default function Result() {
                     </div>
 
                     <div className={style.imageResult}>
-                        <img src={scoreResultFront > scoreResultBack ? ImageFront : ImageBack} />
+                        <img src={scoreResultFront > scoreResultBack ? ImageFront : ImageBack} alt="Illustration of result quiz, frontend or backend" />
                     </div>
                 </div>
             </div>

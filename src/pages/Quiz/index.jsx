@@ -43,7 +43,7 @@ export default function Quiz() {
             setScoreFe(scoreFe + 0)
             setScoreBe(scoreBe + 0)
         }
-    }, [eventTarget, setChecked])
+    }, [eventTarget, checked])
 
 
     useEffect(() => {
