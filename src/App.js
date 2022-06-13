@@ -1,12 +1,18 @@
-
-import "./index.scss"
+import "./styles/index.scss"
 import Routing from "./Routing.js"
+import ResultProvider from "./context/Result";
+import './custom.scss';
+import UserProvider from "./context/User";
 
 function App() {
   return (
-    <main className="container">
-        <Routing />
-    </main>
+    <UserProvider>
+      <ResultProvider>
+        <main className="main">
+            <Routing />
+        </main>
+      </ResultProvider>
+    </UserProvider>
   );
 }
 
