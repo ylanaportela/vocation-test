@@ -1,0 +1,89 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+
+.imageDesign img{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    height: 80%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h2{
+        height: 5%;
+        width: 60%;
+        margin: 0px;
+        align-self: center;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Nuosu SIL', serif;
+        font-weight: bolder;
+        color: #2f2e41;
+    }
+
+    .paragraphs{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        font-size: 16px;
+    }
+
+    .text{
+        height: 87%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text p{
+        margin-bottom: 10px;
+    }
+
+    .imageAdventure{
+        width: 53%;
+        height: 45%;
+        align-self: flex-end;
+    }
+}
+
+
+@media(min-width: 1024px){
+
+    .box{
+
+        h2{
+            height: 7%;
+            font-size: 36px;
+        }
+
+        .paragraphs{
+            flex-direction: row;
+        }
+
+        .text{
+            width: 50%;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+
+        .text p{
+            font-size: 19px;
+        }
+
+        .imageAdventure{
+            width: 53%;
+            height: 100%;
+        }
+
+        button{
+            width: 30%;
+        }
+    }
+}
+

@@ -1,0 +1,96 @@
+.quiz{
+    width: 100%;
+    height: 90%;
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Nuosu SIL', serif;
+    font-weight: bolder;
+    color: #2f2e41;
+}
+
+.question{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    span{
+        color: #fbbd66;
+        font-size:14px;
+    }
+}
+
+.inputGroup{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputRadio{
+    height: 25%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #eef1f3;
+    
+
+    label{
+        margin: 0px;
+        font-size: 18px;
+        text-indent: 10px;
+    }
+}
+
+.progress{
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .progressBar{
+        height: 40%;
+    }
+}
+
+@media(min-width: 768px){
+    .question, .inputGroup, .progress, button{
+        width: 86%;
+        align-self: center;
+    }
+}
+
+@media(min-width: 1024px){
+    .quiz{
+        width: 60%;
+        height: 100%;
+    }
+
+    .title h3{
+        font-size: 36px;
+    }
+
+    .question{    
+        span{
+            font-size:16px;
+        }
+    }
+
+    .inputRadio{
+
+        label{
+            font-size: 20px;
+            text-indent: 10px;
+        }
+
+    }
+}
