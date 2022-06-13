@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "question": "Prefiro fotografar lugares do que ler livros?",
+        "answer": [ "Sim", "Não", "Os dois/Nenhum dos dois"]
+    },
+    {
+        "id": "2",
+        "question": "Acho melhor aplicativos/sites que sejam Lindos do que Rápido?",
+        "answer": [ "Sim", "Não", "Igualmente importantes"]
+    },
+    {
+        "id": "3",
+        "question": "Me enxergo mais como artista do que como uma engenheira?",
+        "answer": [ "Sim", "Não", "Os dois/nenhum dos dois" ]
+    },
+    {
+        "id": "4",
+        "question": "Me apego tanto aos detalhes que às vezes demoro muito pra fazer minhas atividade?",
+        "answer": ["Sim","Não"]
+    },
+    {
+        "id": "5",
+        "question": "Prefiro História ou Ciências a Matemática ou Química?",
+        "answer": [ "Sim", "Não", "Prefiro igualmente todas" ]
+    }
+    
+]
