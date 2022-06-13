@@ -39,10 +39,12 @@ Concluido ✅
 * Barra de progresso atualizada a partir da resposta do usuário
 * Resultado final com a porcentagem de Frontend e Backend demostradas em um gráfico
 
+<div style='display: wrap;'>
+ <img src="./src/assets/screenshot/home-screenshot.png" width='400px' />
+ <img src="./src/assets/screenshot/quiz-screenshot.png" width='400px' />
+ <img src="./src/assets/screenshot/result-screenshot.png" width='400px' />
+</div>
 
-![](./src/assets/screenshot/home-screenshot.png)
-![](./src/assets/screenshot/quiz-screenshot.png)
-![](./src/assets/screenshot/result-screenshot.png)
 
 ### Tecnologias utilizadas
 
