@@ -41,7 +41,7 @@ export default function Login() {
 
                 <div className={style.imageLogin}>
 
-                    <img src={ImageLogin} src="For page of login, of welcome" />
+                    <img src={ImageLogin} alt="For page of login, of welcome" />
                     
                 </div>
                 
